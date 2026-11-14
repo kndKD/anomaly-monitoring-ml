@@ -10,6 +10,7 @@ All notable changes, generated from Conventional Commits.
 
 ## Documentation
 - update CHANGELOG.md [skip ci]
+- update CHANGELOG.md [skip ci]
 - add README
 - update CHANGELOG.md [skip ci]
 - add architecture doc
@@ -22,6 +23,7 @@ All notable changes, generated from Conventional Commits.
 - add GitHub Actions workflow
 
 ## Chores
+- add gitignore, license and changelog
 - add gitignore, license and changelog
 - add dev requirements and ruff config
 - add dev requirements and ruff config
