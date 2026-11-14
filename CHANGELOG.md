@@ -9,6 +9,8 @@ All notable changes, generated from Conventional Commits.
 - add Prometheus and Grafana Compose stack
 
 ## Documentation
+- add README
+- update CHANGELOG.md [skip ci]
 - add architecture doc
 - update CHANGELOG.md [skip ci]
 
