@@ -8,6 +8,10 @@ All notable changes, generated from Conventional Commits.
 - add Prometheus and Grafana Compose stack
 - add Prometheus and Grafana Compose stack
 
+## Documentation
+- add architecture doc
+- update CHANGELOG.md [skip ci]
+
 ## Tests
 - add monitoring config tests
 
