@@ -1,0 +1,16 @@
+# Prometheus scrape config — Project 5.
+# The flask-app target serves /metrics from Day 2 (the /metrics endpoint
+# is added to the Project 1 app then); until then this target shows down,
+# which is expected and visible in Grafana.
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  - job_name: flask-app
+    static_configs:
+      - targets: ["host.docker.internal:5000"]
+    metrics_path: /metrics
